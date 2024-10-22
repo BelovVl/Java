@@ -21,7 +21,7 @@ public class Main {
         value3 = new Integer[2];
         value3[0] = 99;
     }
-
+//task9
     public static void main(String[] args) {
         //task5
         int value = 33;
@@ -39,6 +39,7 @@ public class Main {
         Integer[] value3 = {3, 4};
         changeValue2(value3);
         System.out.println(Arrays.toString(value3));
+        //task9
     }
 
 }
