@@ -44,11 +44,11 @@ public class Main {
         changeValue1(value1);
         System.out.println(value1);
         //task7
-        Integer[] value7 = new Integer [] {3, 4};
+        Integer[] value7 = new Integer[]{3, 4};
         changeValue7(value7);
         System.out.println(Arrays.toString(value7));
         //task8
-        Integer[] value3 ={3, 4};
+        Integer[] value3 = {3, 4};
         changeValue3(value3);
         System.out.println(Arrays.toString(value3));
         //task9
