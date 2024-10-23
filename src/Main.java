@@ -12,8 +12,9 @@ public class Main {
     }
 
     //task7
-    public static void changeValue2(Integer[] value2) {
-        value2 = new Integer[]{1, 2};
+    public static void changeValue7(Integer[] value7) {
+        value7 = new Integer[]{1, 2};
+
     }
 
     //task8
@@ -24,12 +25,13 @@ public class Main {
 
     //task9
     public static void changePerson(Person person) {
-        person.name="Ilya";
-        person.surname="Lagutenko";
+        person = new Person("Ilya", "Lagutenko");
     }
+
     //task10
-    public static void changePerson1(Person person) {
-        Person person1 = new Person("Ilya","Lagutenko");
+    public static void changePerson1(Person person1) {
+        person1.name = "Ilya";
+        person1.surname = "Lagutenko";
     }
 
     public static void main(String[] args) {
@@ -42,20 +44,20 @@ public class Main {
         changeValue1(value1);
         System.out.println(value1);
         //task7
-        Integer[] value2 = {3, 4};
-        changeValue2(value2);
-        System.out.println(Arrays.toString(value2));
+        Integer[] value7 = new Integer [] {3, 4};
+        changeValue7(value7);
+        System.out.println(Arrays.toString(value7));
         //task8
-        Integer[] value3 = {3, 4};
-        changeValue2(value3);
+        Integer[] value3 ={3, 4};
+        changeValue3(value3);
         System.out.println(Arrays.toString(value3));
         //task9
-        Person person = new Person("Ilya", "Lagutenko");
+        Person person = new Person("Lyapis", "Trubetskoy");
         changePerson(person);
         System.out.println("person= " + person);
         //task10
-        Person person1 = new Person("Ilya", "Lagutenko");
+        Person person1 = new Person("Lyapis", "Trubetskoy");
         changePerson1(person1);
-        System.out.println("person= " + person1);
+        System.out.println("person1 = " + person1);
     }
 }
